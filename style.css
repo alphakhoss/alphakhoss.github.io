@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: rgb(22, 21, 21);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Slab', serif;
 }
 
 header {
@@ -71,7 +72,8 @@ header nav {
 #contact input {
     background-color: transparent;
     color: white;
-    border-color: #00ffee;
+    border: solid 2px #00ffee;
+    border-radius: 5px;
 }
 
 .form-control:focus {
@@ -81,12 +83,14 @@ header nav {
 #contact textarea {
     background-color: transparent;
     color: white;
-    border-color: #00ffee;
+    border: solid 2px #00ffee;
+    border-radius: 5px;
 }
 
 #contact button {
     background-color: #00ffee;
-    color: rgb(22, 21, 21);
+    color: black;
+    border-radius: 5px;
 }
 
 footer {
